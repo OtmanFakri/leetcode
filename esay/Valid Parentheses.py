@@ -10,7 +10,6 @@ class Solution:
             elif bracket in closing_brackets:
                 if not stack or stack.pop() != closing_brackets[bracket]:
                     return False
-
         return not stack
 
 
